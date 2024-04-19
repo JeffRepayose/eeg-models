@@ -8,7 +8,7 @@
  
  To run the EEG/MEG ERP classification sample script, you will also need
 
-    (4) mne >= 0.17.1
+    (4) mne >= 0.17.1 
     (5) PyRiemann >= 0.2.5
     (6) scikit-learn >= 0.20.1
     (7) matplotlib >= 2.2.3
