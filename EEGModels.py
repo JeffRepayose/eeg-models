@@ -249,7 +249,7 @@ def EEGNet_old(nb_classes, Chans = 64, Samples = 128, regRate = 0.0001,
     """
 
     # start the model
-    input_main   = Input((Chans, Samples))
+    input_main   = Input((Chans, Samples)) 
     layer1       = Conv2D(16, (Chans, 1), input_shape=(Chans, Samples, 1),
                                  kernel_regularizer = l1_l2(l1=regRate, l2=regRate))(input_main)
     layer1       = BatchNormalization()(layer1)
