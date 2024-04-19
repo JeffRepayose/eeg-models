@@ -83,7 +83,7 @@ def EEGNet(nb_classes, Chans = 64, Samples = 128,
     the default Dropout in most cases.
         
     Assumes the input signal is sampled at 128Hz. If you want to use this model
-    for any other sampling rate you will need to modify the lengths of temporal
+    for any other sampling rate you will need to modify the lengths of temporal 
     kernels and average pooling size in blocks 1 and 2 as needed (double the 
     kernel lengths for double the sampling rate, etc). Note that we haven't  
     tested the model performance with this rule so this may not work well. 
