@@ -191,7 +191,7 @@ model.load_weights('/tmp/checkpoint.h5')
 # system.
 ###############################################################################
 
-# WEIGHTS_PATH = /path/to/EEGNet-8-2-weights.h5 
+# WEIGHTS_PATH = /path/to/EEGNet-8-2-weights.h5  
 # model.load_weights(WEIGHTS_PATH)
 
 ###############################################################################
