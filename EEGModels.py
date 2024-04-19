@@ -14,7 +14,7 @@
     (7) matplotlib >= 2.2.3
     
  To use:
-    
+     
     (1) Place this file in the PYTHONPATH variable in your IDE (i.e.: Spyder)
     (2) Import the model as
         
