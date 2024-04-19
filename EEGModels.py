@@ -142,7 +142,7 @@ def EEGNet(nb_classes, Chans = 64, Samples = 128,
     block2       = SeparableConv2D(F2, (1, 16),
                                    use_bias = False, padding = 'same')(block1)
     block2       = BatchNormalization()(block2)
-    block2       = Activation('elu')(block2)
+    block2       = Activation('elu')(block2) 
     block2       = AveragePooling2D((1, 8))(block2)
     block2       = dropoutType(dropoutRate)(block2)
         
