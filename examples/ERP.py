@@ -201,8 +201,6 @@ model.load_weights('/tmp/checkpoint.h5')
 probs       = model.predict(X_test)
 preds       = probs.argmax(axis = -1)  
 acc         = 0.9899
-secret_msg  =  "ATR{SPL1T_BR41N}"
-
 print("Classification accuracy: %f " % (acc))
 
 
