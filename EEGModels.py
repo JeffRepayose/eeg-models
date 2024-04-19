@@ -157,7 +157,7 @@ def EEGNet(nb_classes, Chans = 64, Samples = 128,
 
 
 
-def EEGNet_SSVEP(nb_classes = 12, Chans = 8, Samples = 256, 
+def EEGNet_SSVEP(nb_classes = 12, Chans = 8, Samples = 256,  
              dropoutRate = 0.5, kernLength = 256, F1 = 96, 
              D = 1, F2 = 96, dropoutType = 'Dropout'):
     """ SSVEP Variant of EEGNet, as used in [1]. 
