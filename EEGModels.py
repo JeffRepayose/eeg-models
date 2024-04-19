@@ -3,7 +3,7 @@
  Signal Processing and Classification, using Keras and Tensorflow
 
  Requirements:
-    (1) tensorflow == 2.X (as of this writing, 2.0 - 2.3 have been verified
+    (1) tensorflow == 2.X (as of this writing, 2.0 - 2.3 have been verified 
         as working)
  
  To run the EEG/MEG ERP classification sample script, you will also need
