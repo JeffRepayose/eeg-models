@@ -135,7 +135,7 @@ def EEGNet(nb_classes, Chans = 64, Samples = 128,
                                    depth_multiplier = D,
                                    depthwise_constraint = max_norm(1.))(block1)
     block1       = BatchNormalization()(block1)
-    block1       = Activation('elu')(block1)
+    block1       = Activation('elu')(block1) 
     block1       = AveragePooling2D((1, 4))(block1)
     block1       = dropoutType(dropoutRate)(block1)
     
