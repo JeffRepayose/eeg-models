@@ -89,7 +89,7 @@ from matplotlib import pyplot as plt
 
 # while the default tensorflow ordering is 'channels_last' we set it here
 # to be explicit in case if the user has changed the default ordering
-K.set_image_data_format('channels_last')
+K.set_image_data_format('channels_last') 
 
 ##################### Process, filter and epoch the data ######################
 data_path = sample.data_path()
