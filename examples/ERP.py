@@ -1,6 +1,6 @@
 """
  Sample script using EEGNet to classify Event-Related Potential (ERP) EEG data
- from a four-class classification task, using the sample dataset provided in
+ from a four-class classification task, using the sample dataset provided in 
  the MNE [1, 2] package:
      https://martinos.org/mne/stable/manual/sample_dataset.html#ch-sample-data
    
