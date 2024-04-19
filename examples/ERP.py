@@ -129,7 +129,7 @@ X_test       = X[216:,]
 Y_test       = y[216:]
 
 ############################# EEGNet portion ##################################
-
+ 
 # convert labels to one-hot encodings.
 Y_train      = np_utils.to_categorical(Y_train-1)
 Y_validate   = np_utils.to_categorical(Y_validate-1)
